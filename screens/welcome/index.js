@@ -1,3 +1,5 @@
+import { ImageBackground } from "react-native";
+import { TextInput } from "react-native";
 import React from "react";
 import { View, Image, Text, ScrollView, SafeAreaView, StyleSheet } from "react-native";
 
@@ -12,8 +14,8 @@ const WelcomeScreen = () => {
           </Text>
         </View>
         <Text style={styles.footer}>Made with ❤️ by Crowdbotics</Text>
-      </ScrollView>
-    </SafeAreaView>;
+      <TextInput style={styles.wTJCswho}></TextInput><Text style={styles.WtXSVyjj}>Lorem ipsum…</Text></ScrollView>
+    <ImageBackground style={styles.YpNmMIKZ} source={require("./dragon 6.jpg")} resizeMode="cover"></ImageBackground></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -49,6 +51,23 @@ const styles = StyleSheet.create({
     color: "#828AB0",
     fontWeight: 700,
     marginBottom: 20
+  },
+  wTJCswho: {
+    backgroundColor: "#ffffff",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30
+  },
+  WtXSVyjj: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  YpNmMIKZ: {
+    width: 107,
+    height: 62
   }
 });
 export default WelcomeScreen;

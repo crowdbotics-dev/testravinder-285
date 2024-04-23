@@ -19,7 +19,7 @@ const LoginScreen = () => {
           </TouchableOpacity>
         </View>
       </KeyboardAvoidingView>
-    </SafeAreaView>;
+    <View style={styles.DJvBUylk}></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -60,6 +60,13 @@ const styles = StyleSheet.create({
   buttonText: {
     color: '#fff',
     fontSize: 16
+  },
+  DJvBUylk: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
   }
 });
 export default LoginScreen;
